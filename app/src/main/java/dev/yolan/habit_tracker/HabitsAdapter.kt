@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.single_card.view.*
 
-class HabitsAdapter(val habits: List<Habit>) :
+class HabitsAdapter(private val habits: List<Habit>) :
     RecyclerView.Adapter<HabitsAdapter.HabitViewHolder>() {
     class HabitViewHolder(val card: View) : RecyclerView.ViewHolder(card)
 
