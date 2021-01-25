@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".CreateHabitActivity">
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/workout_every_morning" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/motivation"
+        android:inputType="textMultiLine"
+        android:lines="2" />
+
+    <Button
+        android:id="@+id/btn_choose_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="chooseImage"
+        android:text="@string/choose_image" />
+
+    <ImageView
+        android:id="@+id/iv_image_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/selected_image"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_save_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_image"
+        android:onClick="storeHabit"/>
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e53935"
+        android:visibility="invisible" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

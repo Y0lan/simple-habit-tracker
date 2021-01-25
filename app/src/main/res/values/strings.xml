@@ -3,4 +3,10 @@
     <string name="logo_of_my_habit">Logo of my habit</string>
     <string name="drink_water">Drink Water</string>
     <string name="drink_water_desc">A glass of water</string>
+    <string name="begin_habit">Begin a new habit</string>
+    <string name="workout_every_morning">Your habit (Working out every morning)</string>
+    <string name="motivation">Motivation (Why do it)</string>
+    <string name="choose_image">Choose image</string>
+    <string name="selected_image">Selected image</string>
+    <string name="save_image">save image</string>
 </resources>
